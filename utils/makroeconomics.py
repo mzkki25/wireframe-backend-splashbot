@@ -129,7 +129,7 @@ def two_wheels_model(text):
             """
         ).text.replace("```python", "").replace("```", "").strip()
 
-        return f"### Maaf, SPLASHBot Belum Dapat Menjawab 😢:\n{fallback_response}"   
+        return f"### **Maaf, SPLASHBot Belum Dapat Menjawab 😢**:\n{fallback_response}"   
      
 def four_wheels_model(text):
     answer = "Four wheels model masih dalam tahap pengembangan dan belum tersedia untuk digunakan. Silakan coba lagi nanti."
